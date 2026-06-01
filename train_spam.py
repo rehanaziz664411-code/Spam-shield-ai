@@ -34,4 +34,4 @@ with open('spam_model.pkl', 'wb') as f:
 with open('tfidf_vectorizer.pkl', 'wb') as f:
     pickle.dump(tfidf, f)
 
-print("✅ Email Spam AI Trained!")
+print(" Email Spam AI Trained!")
